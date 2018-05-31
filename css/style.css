@@ -1,11 +1,11 @@
 /****************************************TYPOGRAPHY ***************************************************/
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	font-size: 14px;
 	color: #999999;
 }
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Montserrat', sans-serif;
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Exo 2', sans-serif;
 	color: #433b88;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -25,7 +25,6 @@ h4{
 p{
 	font-size: 1em;
 	color: #999999;
-
 }
 
 .btn{
@@ -352,7 +351,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	color: #fff;
 }
 .logo-colored{
-	color: #e8617d;
+	color: #df9331;
 }
 .footer-left-content{
 	margin-bottom: 50px;

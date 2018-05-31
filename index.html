@@ -7,6 +7,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -16,18 +18,19 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5b010d28227d3d7edc257a98/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5b010d28227d3d7edc257a98/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
 </script>
+  
   <body>
-    <header id="home" class="gradient-violat">
+    <header id="home" >
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,11 +51,11 @@ s0.parentNode.insertBefore(s1,s0);
             <ul class="nav navbar-nav  navbar-right">
               <li><a href="#home">Home <span class="sr-only">(current)</span></a></li>
               <li><a href="#blog-card">About</a></li>
-              <li><a href="#services">Services</a></li>
+              <!--<li><a href="#services">Services</a></li>-->
               <li><a href="#feature">Products</a></li>
-                <li><a href="#mentors">Mentors</a></li>
-               <!--<li><a href="#Contact">Contact</a></li>-->
-               <li><a hre="#">info@kartstores.com<br/>PHONE: +91 7200002200</a></li>
+                <!--<li><a href="#mentors">Mentors</a></li>-->
+               <li><a href="#Contact">Contact</a></li>
+               <li><a hre="#">info@kartstores.com<br/>PHONE: +91 72 00 00 22 00</a></li>
               <li><a href="#newsletter" class="btn btn-orange border-none btn-rounded-corner btn-navbar">Get Quote<span class="icon-on-button"><i class="ion-ios-cloud-download-outline"></i></span></a></li> 
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -102,7 +105,7 @@ s0.parentNode.insertBefore(s1,s0);
         </div>
       </div>
     </section>
-    <section id="services" class="padding-top-120">
+    <!--<section id="services" class="padding-top-120">
       <div class="container">
         <div class="row">
          
@@ -145,7 +148,7 @@ s0.parentNode.insertBefore(s1,s0);
           </div>
         </div>
       </div>
-    </section><br><br><br><br><br>
+    </section><br><br><br><br><br>-->
  
     <section id="feature" class="padding-top-bottom-90">
       <div class="container">
@@ -226,15 +229,11 @@ s0.parentNode.insertBefore(s1,s0);
               </div>
             </div>
           </div>
-
-            
-          
-
-
         </div>
       </div>
     </section> 
-    <section id="mentors" class="testimonial-section padding-top-bottom-90 gradient-violat">
+
+   <!-- <section id="mentors" class="testimonial-section padding-top-bottom-90 gradient-violat">
       <div class="container">
         <div class="heading-wraper text-center">
           <h4 class="text-white">Mentors</h4>
@@ -266,7 +265,7 @@ s0.parentNode.insertBefore(s1,s0);
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
    
     <section id="newsletter" class="padding-top-bottom-120 newsletter">
       <div class="container">
@@ -281,9 +280,15 @@ s0.parentNode.insertBefore(s1,s0);
                     <div class="form-group">
                       <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                       <input type="mobile" class="form-control" id="exampleInputEmail1" placeholder="Mobile Number">
-                      <input type="text-center" class="form-control" id="exampleInputEmail1" placeholder="Needed Service">
-                      <input type="text-center" class="form-control" id="exampleInputEmail1" placeholder="Budget">
+                      <select class="form-control" name="service">
+                        <option>Needed Products</option>
+                        <option>Go-Kart Engines</option>
+                        <option>Track Accessories</option>
+                        <option>Speed Control Systems</option>
+                      </select>
+                      <input type="text-center" class="form-control" id="exampleInputEmail1" placeholder="Quantity">
                       <input type="text-center" class="form-control" id="exampleInputEmail1" placeholder="Your Message">
+                      <input type="text-center" class="form-control" id="exampleInputEmail1" placeholder="Specifications">
                     </div>
                     <a class="btn btn-orange border-none btn-rounded-corner" href="#">Get Quote<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
                   </form>
@@ -298,7 +303,8 @@ s0.parentNode.insertBefore(s1,s0);
     <!--  <section class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2825.211958629328!2d91.83379900000003!3d24.909438007883935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37505558dd0be6a1%3A0x65c7e47c94b6dc45!2sTechnext!5e1!3m2!1sen!2s!4v1425297675833" width="100%" height="450" frameborder="0" style="border:0">
           </iframe>
-      </section>
+      </section>-->
+
       <section id="Contact" class="padding-top-bottom-120 newsletter">
       <div class="container">
         <div class="row">
@@ -311,7 +317,7 @@ s0.parentNode.insertBefore(s1,s0);
                   <form class="subscription-form">
                     <div class="form-group">
                      <b><p>EMAIL ID:info@kartstores.com</p></b>
-                      <b><p>MOBILE NUMBER:9043777004</p></b>
+                      <b><p>MOBILE NUMBER:+91 72 00 00 22 00</p></b>
                    
                      
                     </div>
@@ -323,28 +329,31 @@ s0.parentNode.insertBefore(s1,s0);
           </div>
         </div>
       </div>
-    </section>-->
-    <footer class="padding-top-120">
+    </section>
+
+    <footer class="padding-top-120 gradient-violat">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
             <div class="footer-left-content">
               <div class="logo-colored">
-                <img src="images/Logo_color.png" alt="">KartStores
+                <img src="images/Logo.png" alt="">KARTSTORES
               </div>
               <div class="content">
                 <p class="margin-bottom-30 margin-top-30"></p>
-                <p>9043777004</p>
-                <p>info@kartstores.com</p>
+                <p>+91 72 00 00 22 00</p>
+                <p>©2018 Kartstores, Inc. All Rights Reserved</p>
+                <p>©Powered By Codoo</p>
               </div>
             </div>
           </div>
         
           <hr class="footer-divider">
+
          
         </div>
       </div>
-      <div class="footer-end-line"></div>
+       <div class="footer-end-line"></div>
     </footer>
    
     <script src="js/jquery.min.js"></script>
